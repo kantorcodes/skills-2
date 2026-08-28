@@ -31,10 +31,10 @@ Probe the CLI first:
 hol-guard --version
 ```
 
-If the command is unavailable and the user asked to install Guard, install the current stable release reproducibly:
+If the command is unavailable and the user asked to install Guard, install the validated stable release reproducibly:
 
 ```sh
-pipx install --force "hol-guard==3.0.5"
+pipx install --force "hol-guard==3.0.12"
 hol-guard --version
 ```
 
