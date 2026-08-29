@@ -34,7 +34,7 @@ hol-guard --version
 If the command is unavailable and the user asked to install Guard, install the validated stable release reproducibly:
 
 ```sh
-pipx install --force "hol-guard==3.0.12"
+pipx install --force "hol-guard==3.0.18"
 hol-guard --version
 ```
 
