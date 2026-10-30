@@ -31,14 +31,14 @@ Probe the CLI first:
 hol-guard --version
 ```
 
-If the command is unavailable and the user asked to install Guard, install the validated stable release reproducibly:
+If the command is unavailable and the user asked to install Guard, install the current stable release from the official PyPI distribution:
 
 ```sh
-pipx install --force "hol-guard==3.0.18"
+pipx install hol-guard
 hol-guard --version
 ```
 
-Do not substitute a prerelease unless the user explicitly asks to test one.
+For an existing pipx installation, use `pipx upgrade hol-guard` rather than re-installing an outdated pinned version. Review the upstream release notes before updating in a protected environment. Do not substitute a prerelease unless the user explicitly asks to test one.
 
 ## Detect and protect the local harness
 
